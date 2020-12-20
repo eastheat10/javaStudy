@@ -1,5 +1,7 @@
 package net.skhu.lecture01.exer01;
 
+// charAt 메소드 사용하여 자음 개수확인
+
 public class Example02 {
 
 	static int getVowelCount(String s) {

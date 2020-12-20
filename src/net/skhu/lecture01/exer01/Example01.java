@@ -1,5 +1,7 @@
 package net.skhu.lecture01.exer01;
 
+// String.format 메소드 사용하기
+
 public class Example01 {
 
 	public static void main(String[] args) {

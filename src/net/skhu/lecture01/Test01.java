@@ -14,7 +14,9 @@ public class Test01 {
 		method3(s);
 
 		System.out.println("a: " + a);
-		System.out.println("p.age: " + p.age);
+		System.out.println("p.age: " + p.age + " \n" + p);
+		System.out.println("s: " + s);
+		s = method3(s);
 		System.out.println("s: " + s);
 
 	}
@@ -28,7 +30,8 @@ public class Test01 {
 		p.age++;
 	}
 
-	public static void method3(String s) {
+	public static String method3(String s) {
 		s = "world";
+		return s;
 	}
 }

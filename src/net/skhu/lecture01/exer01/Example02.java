@@ -10,14 +10,11 @@ public class Example02 {
 		char[] vowel = new char[] {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
 
 		for (int i = 0; i < s.length(); i++) {
-
 			for(char c : vowel) {
 				if(s.charAt(i) == c)
 					count++;
 			}
-
-		}
-		return count;
+		} return count;
 	}
 
 
